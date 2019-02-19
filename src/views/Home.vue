@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <title-page title="Watcher"/>
+    <img src="https://image.flaticon.com/icons/svg/123/123377.svg" alt="wachter" style="width:100px">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores soluta temporibus velit, delectus, veritatis deleniti optio nam, fugiat dignissimos commodi odio esse pariatur quo veniam rem nulla voluptatem iusto quaerat.</p>
   </div>
 </template>
 
+
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import TitlePage from '@/components/title-page.vue'
 
 export default {
-  name: 'home',
   components: {
-    HelloWorld,
-  },
+    TitlePage
+  }
 };
 </script>
